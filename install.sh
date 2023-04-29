@@ -10,3 +10,5 @@ pip install firecloud
 pip install xlrd
 pip install --upgrade google-cloud-bigquery==0.27
 pip install pandas
+# need a recent google-auth to support impersonated ADC
+pip install google-auth --upgrade
